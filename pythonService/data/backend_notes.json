@@ -1,0 +1,92 @@
+[
+  {
+    "id": "doc1",
+    "title": "Express Middleware",
+    "content": "Express middleware functions execute before the route handler. They can modify the request object, response object, or end the request-response cycle.",
+    "topic": "Express"
+  },
+  {
+    "id": "doc2",
+    "title": "Express Routing",
+    "content": "Express routing determines how an application responds to a client request on a particular endpoint using methods such as GET, POST, PUT and DELETE.",
+    "topic": "Express"
+  },
+  {
+    "id": "doc3",
+    "title": "REST API",
+    "content": "A REST API follows the principles of Representational State Transfer and commonly uses HTTP methods such as GET, POST, PUT, PATCH and DELETE.",
+    "topic": "Backend"
+  },
+  {
+    "id": "doc4",
+    "title": "JWT Authentication",
+    "content": "JWT authentication is stateless because the server does not store session information. The client sends the token with every request.",
+    "topic": "Authentication"
+  },
+  {
+    "id": "doc5",
+    "title": "Session Authentication",
+    "content": "Session authentication is stateful because the server stores the session information and identifies the user using a session ID stored in cookies.",
+    "topic": "Authentication"
+  },
+  {
+    "id": "doc6",
+    "title": "Cookies",
+    "content": "Cookies are small pieces of data stored inside the browser and are automatically sent with every request to the same domain.",
+    "topic": "Authentication"
+  },
+  {
+    "id": "doc7",
+    "title": "Socket.IO",
+    "content": "Socket.IO enables real-time bidirectional communication between the client and the server using events such as emit and on.",
+    "topic": "WebSocket"
+  },
+  {
+    "id": "doc8",
+    "title": "Multer",
+    "content": "Multer is an Express middleware used for handling multipart form-data and uploading files from the client.",
+    "topic": "File Upload"
+  },
+  {
+    "id": "doc9",
+    "title": "Cloudinary",
+    "content": "Cloudinary is a cloud-based media storage service used to upload, optimize and deliver images and videos.",
+    "topic": "Cloud Storage"
+  },
+  {
+    "id": "doc10",
+    "title": "MongoDB",
+    "content": "MongoDB is a NoSQL document database that stores data as BSON documents instead of rows and columns.",
+    "topic": "Database"
+  },
+  {
+    "id": "doc11",
+    "title": "Mongoose",
+    "content": "Mongoose is an ODM library for MongoDB that provides schemas, models and validation for Node.js applications.",
+    "topic": "Database"
+  },
+  {
+    "id": "doc12",
+    "title": "TypeScript",
+    "content": "TypeScript is a superset of JavaScript that adds static typing, interfaces, enums, generics and compile-time error checking.",
+    "topic": "TypeScript"
+  },
+  {
+    "id": "doc13",
+    "title": "Generics",
+    "content": "Generics allow reusable components to work with different data types while maintaining type safety.",
+    "topic": "TypeScript"
+  },
+  {
+    "id": "doc14",
+    "title": "Interfaces",
+    "content": "Interfaces define the structure of objects and are commonly used to enforce contracts in TypeScript.",
+    "topic": "TypeScript"
+  },
+  {
+    "id": "doc15",
+    "title": "Docker",
+    "content": "Docker packages an application along with its dependencies into containers so that it runs consistently across environments.",
+    "topic": "DevOps"
+  }
+]
