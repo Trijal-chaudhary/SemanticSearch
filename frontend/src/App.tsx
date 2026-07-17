@@ -21,22 +21,9 @@ function App() {
     
 
     const data = await search(query);
-    console.log(data);
+    // console.log(data);
     // Temporary data for UI testing
-    setResults([
-      {
-        title: "Express Middleware",
-        topic: "Express",
-        content:
-          "Express middleware executes before the route handler and can modify the request or response object."
-      },
-      {
-        title: "JWT Authentication",
-        topic: "Authentication",
-        content:
-          "JWT is a stateless authentication mechanism where the client sends the token with every request."
-      }
-    ]);
+    setResults(data.data);
 
     setLoading(false);
   };

@@ -22,7 +22,13 @@ def home(data: SearchRequest):
         query_texts=[data.text],
         n_results=2
     )
-    print(result)
-    return {
-        "message": "Hello from Python"
-    }
+    ret = []
+    for doc, meta in zip(result["documents"][0], result["metadatas"][0]):
+        obj = {
+            "title" : meta["title"],
+            "topic" : meta["topic"],
+            "content" : doc
+        }
+        ret.append(obj)
+    print(ret)
+    return ret

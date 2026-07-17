@@ -11,5 +11,5 @@ export const postSementicSearch = async (req: Request, res: Response) =>{
   })
   const data = await response.json();
   console.log(data);
-  res.status(200).json({mes :"connected"})
+  res.status(200).json({data})
 }
